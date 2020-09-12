@@ -41,6 +41,12 @@ class ViewController: UIViewController {
         }
     }
 
+   getImages(keyword: "funny")
+
+
+
+
+
     }
 
     //検索キーワード
@@ -77,7 +83,8 @@ class ViewController: UIViewController {
     
     @IBAction func nextOdai(_ sender: Any) {
         
-        
+        count = count + 1
+        // getImages
         
     }
     
