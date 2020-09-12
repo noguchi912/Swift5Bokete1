@@ -37,6 +37,9 @@
                                 <rect key="frame" x="62" y="692" width="297" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="次のお題へ"/>
+                                <connections>
+                                    <action selector="nextOdai:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c5U-1m-0wQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsF-8t-jTX">
                                 <rect key="frame" x="62" y="795" width="297" height="30"/>
@@ -54,7 +57,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="commentTextView" destination="BF3-W7-1z2" id="3dr-DP-vIl"/>
                         <outlet property="odaiImageView" destination="69w-oF-JeS" id="XzH-uE-rg1"/>
+                        <outlet property="searchTextView" destination="c8F-3X-6ZY" id="TSL-Rx-TGz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
