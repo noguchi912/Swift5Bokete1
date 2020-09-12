@@ -53,6 +53,9 @@
                         <color key="backgroundColor" red="0.80892689167125775" green="0.93614088782929483" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="odaiImageView" destination="69w-oF-JeS" id="XzH-uE-rg1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
